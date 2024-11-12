@@ -46,10 +46,16 @@ button {
   padding: 140px;
   gap: 100px;
 }
-span {
+.span1 {
   font: inter;
   font-weight: 700;
   line-height: 82.3px;
+  position: relative;
+}
+.span2 {
+  position: absolute;
+  bottom: -30px;
+
 }
 .main-child1 {
 }
