@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --common-padding: 0 6vw;
+  --common-color: #c2f578;
+}
+.heder {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.heder-left {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding: var(--common-padding);
+}
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+.heder-right {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: var(--common-padding);
+}
+button {
+  color: white;
+  background-color: black;
+  padding: 5px;
+  border-radius: 5px;
+}
+#explore {
+  background-color: var(--common-color);
+  color: black;
+  margin-top: 20px;
+}
+.main01 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 140px;
+  gap: 100px;
+}
+span {
+  font: inter;
+  font-weight: 700;
+  line-height: 82.3px;
+}
+.main-child1 {
+}
+#p1 {
+  font: Poppins;
+  font-weight: 300;
+  font-size: 68px;
+  /* line-height: 102px;
+  letter-spacing: -3%; */
+}
+.image01 {
+  width: 602px;
+  height: 606px;
+  top: 110px;
+  left: 813px;
+  gap: 0px;
+  opacity: 0px;
+}
+.company {
+  padding: 130px;
+  margin-top: 10px;
+  width: 1190px;
+  height: 57.62px;
+}
