@@ -206,3 +206,62 @@ button {
   padding-left: 80px;
   padding-top: 10px;
 }
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: var(--common-padding);
+}
+.i1 {
+  height: 30px;
+  width: 50%;
+}
+.i3 {
+  font-weight: bold;
+}
+.b2 {
+  color: black;
+  background-color: var(--common-color);
+}
+.f2 {
+  font-size: 23px;
+}
+.f3 {
+  font-size: 23px;
+}
+.tech {
+  margin-top: 10px;
+}
+.tools {
+  margin-top: 10px;
+}
+.app {
+  margin-top: 10px;
+}
+.us {
+  margin-top: 10px;
+}
+.carres {
+  margin-top: 10px;
+  font-weight: bold;
+}
+.blog {
+  margin-top: 10px;
+}
+.aff {
+  margin-top: 10px;
+}
+.support {
+  margin-top: 10px;
+}
+.p {
+  font-weight: bold;
+  font-size: 26px;
+}
+.scribre {
+  font-size: 17px;
+  margin-top: 20px;
+}
+.input-box {
+  margin-top: 20px;
+}
