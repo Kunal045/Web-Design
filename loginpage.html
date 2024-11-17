@@ -4,5 +4,41 @@
     <title>Login Page</title>
     <link rel="stylesheet" href="style1.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="heder">
+      <div class="heder-left">
+        <div class="logo">ClassIQ</div>
+        <div class="cource">cource</div>
+      </div>
+      <div class="heder-right">
+        <div class="login">
+          <button
+            id="login-button"
+            onclick="window.location.href='loginpage.html'"
+          >
+            Login
+          </button>
+        </div>
+        <div class="sign-up">
+          <button
+            id="signup-button"
+            onclick="window.location.href='signuppage.html'"
+          >
+            SignUp
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="page">
+      <h3>Login</h3>
+      <div class="input">
+        <input class="i1" type="text" placeholder="Enter Your Email" />
+        <input class="i2" type="text" placeholder="Enter Your Password" />
+      </div>
+      <div class="button">
+        <button class="c">Login</button>
+      </div>
+      <h4>Don't have an account? <a href="signuppage.html">SignUp</a></h4>
+    </div>
+  </body>
 </html>

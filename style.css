@@ -211,6 +211,7 @@ button {
   justify-content: space-between;
   flex-direction: row;
   padding: var(--common-padding);
+  margin-bottom: 20px;
 }
 .i1 {
   height: 30px;
